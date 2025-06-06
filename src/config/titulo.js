@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Aspectos técnicos para el  patronaje de calzado'
