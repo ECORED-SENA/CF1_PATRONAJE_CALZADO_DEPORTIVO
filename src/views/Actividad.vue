@@ -20,10 +20,10 @@ export default {
       tema: 'Aspectos técnicos del patronaje de calzado',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con la estructura, materiales, tipologías, fases de producción y documentación técnica en el patronaje de calzado.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la estructura, materiales, tipologías, fases de producción y documentación técnica en el patronaje de calzado.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -340,7 +340,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
@@ -361,7 +361,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
@@ -376,13 +376,13 @@ export default {
         {
           id: 13,
           texto:
-            'El montaje Strobel se utiliza principalmente en calzado formal.',
+            'El montaje <em>Strobel</em> se utiliza principalmente en calzado formal.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
@@ -403,7 +403,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
@@ -424,7 +424,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {

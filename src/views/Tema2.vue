@@ -158,7 +158,7 @@
         figure
           img(src='@/assets/curso/tema2/img8.png', alt='', style="width: 400px").m-auto
 
-    p.mt-4 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión
+    p.mt-4 Cada modelo de calzado se adapta a diferentes necesidades, estilos y actividades, por lo que conocer sus diferencias ayuda a elegir el más adecuado para cada ocasión.
 
     separador
     #t_2_3.titulo-segundo.color-acento-contenido

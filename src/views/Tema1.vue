@@ -136,6 +136,7 @@
     .row.bg-5
       .col-12
         .p-5
+          p El zapato se compone de diversas secciones que cumplen funciones específicas en términos de ajuste, comodidad y protección. A continuación, se presentan sus partes externas más relevantes:
           .tarjeta
             .imgCont.m-auto
               .row.justify-content-center.mb-4

@@ -51,7 +51,7 @@
             figure
               img(src='@/assets/curso/tema3/img5.png', alt='', style="width: 400px").m-auto
 
-      .tarjeta.clr-paleYellow.p-4(titulo="Cuero vegetal")
+      .tarjeta.clr-paleYellow.p-4(titulo="Cuero mixto")
         .row.align-items-center
           .col-lg-7
             h4 Cuero mixto
@@ -236,6 +236,12 @@
       .col-lg-11
         p Los materiales sintéticos son compuestos desarrollados artificialmente, principalmente a partir de derivados del petróleo y polímeros. Han sido diseñados para imitar o incluso mejorar las propiedades de los materiales naturales como el cuero y los textiles. En la industria del calzado, su uso es ampliamente extendido gracias a su bajo costo, alta versatilidad, resistencia a la humedad, durabilidad y facilidad de limpieza. Su clasificación puede hacerse según su composición química o según su estructura y aplicación específica en el calzado.
 
+    p.mt-4
+      b Clasificación de los materiales sintéticos según su composición
+
+    p Esta categoría se refiere al tipo de polímero o compuesto base del que está hecho el material sintético. Las propiedades físicas y funcionales dependen directamente de estos componentes.
+
+
     TabsB.color-acento-botones.mt-4
       .py-4.py-md-5.bg-9(titulo="Poliuretano (PU)" :icono="require('@/assets/curso/tema3/img23.svg')")
         .row.align-items-center
@@ -334,7 +340,7 @@
               figure
                 img(src='@/assets/curso/tema3/img32.png', alt='', style="width: 400px").m-auto
             .col-lg-5.p-4.bg-2
-              figure
+              figure.d-lg-block.d-none
                 img(src="@/assets/curso/tema3/img22.svg", alt="", style="width: 85px")
               p.mt-4 La clasificación de los textiles en el calzado se realiza principalmente en función del origen de las fibras con las que se elaboran: naturales o sintéticas.
             .col-lg-3.d-lg-block.d-none
@@ -349,34 +355,35 @@
             h5 Tabla 1.  
             span  Textiles de fibras naturales
           
-          table
-            thead
-              tr(style="background-color: #E0EE33")
-                th Niveles del lenguaje
-                th Origen
-                th Características
-                th Usos en calzado
-            tbody
-              tr(style="background-color: #F6F6F6")
-                td Algodón
-                td Vegetal (planta de algodón)
-                td Es una fibra suave al tacto, altamente absorbente, transpirable e hipoalergénica. Tiene buena resistencia al lavado y es cómoda para el contacto directo con la piel.
-                td Se emplea en forros internos, plantillas y la parte superior de zapatillas ligeras o calzado casual.
-              tr(style="background-color: #FFFFFF")
-                td Lino
-                td Vegetal (tallo de lino)
-                td Es una fibra fuerte, fresca al tacto, ligera y biodegradable. Posee propiedades antibacterianas y excelente capacidad de absorción de humedad.
-                td Se utiliza en alpargatas, sandalias y calzado de verano por su frescura y textura natural.
-              tr(style="background-color: #F6F6F6")
-                td Lana
-                td Animal (ovejas, alpacas)
-                td Actúa como aislante térmico natural. Es flexible, elástica, y tiene la capacidad de absorber la humedad sin perder la sensación de calor.
-                td Se emplea en botas de invierno, pantuflas y zapatillas térmicas.
-              tr(style="background-color: #FFFFFF")
-                td Seda
-                td Animal (gusano de seda)
-                td Es una fibra suave, brillante y delicada. Tiene una alta resistencia a la tracción y una textura lujosa, aunque es costosa y requiere cuidados especiales.
-                td Se utiliza en calzado de lujo y como detalle decorativo en diseños especiales.
+          .table-responsive
+            table
+              thead
+                tr(style="background-color: #E0EE33")
+                  th Niveles del lenguaje
+                  th Origen
+                  th Características
+                  th Usos en calzado
+              tbody
+                tr(style="background-color: #F6F6F6")
+                  td Algodón
+                  td Vegetal (planta de algodón)
+                  td Es una fibra suave al tacto, altamente absorbente, transpirable e hipoalergénica. Tiene buena resistencia al lavado y es cómoda para el contacto directo con la piel.
+                  td Se emplea en forros internos, plantillas y la parte superior de zapatillas ligeras o calzado casual.
+                tr(style="background-color: #FFFFFF")
+                  td Lino
+                  td Vegetal (tallo de lino)
+                  td Es una fibra fuerte, fresca al tacto, ligera y biodegradable. Posee propiedades antibacterianas y excelente capacidad de absorción de humedad.
+                  td Se utiliza en alpargatas, sandalias y calzado de verano por su frescura y textura natural.
+                tr(style="background-color: #F6F6F6")
+                  td Lana
+                  td Animal (ovejas, alpacas)
+                  td Actúa como aislante térmico natural. Es flexible, elástica, y tiene la capacidad de absorber la humedad sin perder la sensación de calor.
+                  td Se emplea en botas de invierno, pantuflas y zapatillas térmicas.
+                tr(style="background-color: #FFFFFF")
+                  td Seda
+                  td Animal (gusano de seda)
+                  td Es una fibra suave, brillante y delicada. Tiene una alta resistencia a la tracción y una textura lujosa, aunque es costosa y requiere cuidados especiales.
+                  td Se utiliza en calzado de lujo y como detalle decorativo en diseños especiales.
 
     .titulo-tres.mt-4: h3 Textiles de fibras sintéticas
 
@@ -414,7 +421,7 @@
         .row.align-items-center
           .col-lg-7
             h4 Acrílico
-            p Fibra sintética suave, con tacto similar a la lana. Resiste la exposición solar y es térmica. Se emplea en botas de invierno, tejidos térmicos y calzado para climas fríos
+            p Fibra sintética suave, con tacto similar a la lana. Resiste la exposición solar y es térmica. Se emplea en botas de invierno, tejidos térmicos y calzado para climas fríos.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema3/img37.png', alt='', style="width: 385px").m-auto

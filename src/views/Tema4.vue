@@ -311,19 +311,19 @@
         .row.align-items-center
           .col-lg-7
             h4 Máquinas de codo
-            p Brindan mayor maniobrabilidad en materiales rígidos, lo que facilita el ensamblaje en calzado estructurado.
+            p Facilitan la costura en zonas curvas del calzado, permitiendo un mejor ajuste en áreas difíciles de alcanzar.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema4/img23.png', alt='', style="width: 400px").m-auto
+              img(src='@/assets/curso/tema4/img24.png', alt='', style="width: 400px").m-auto
 
       .tarjeta.clr-paleYellow.p-4(titulo="Máquinas de columna o poste")
         .row.align-items-center
           .col-lg-7
             h4 Máquinas de columna o poste
-            p Facilitan la costura en zonas curvas del calzado, permitiendo un mejor ajuste en áreas difíciles de alcanzar.
+            p Brindan mayor maniobrabilidad en materiales rígidos, lo que facilita el ensamblaje en calzado estructurado.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema4/img24.png', alt='', style="width: 400px").m-auto
+              img(src='@/assets/curso/tema4/img23.png', alt='', style="width: 400px").m-auto
 
       .tarjeta.clr-paleYellow.p-4(titulo="Máquinas de doble aguja")
         .row.align-items-center
@@ -333,6 +333,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema4/img25.png', alt='', style="width: 400px").m-auto
+              figcaption.mt-2 Imágen tomada de: máquina de poste dos agujas. (s. f.)
 
       .tarjeta.clr-paleYellow.p-4(titulo="Máquina de costura sobrehilada")
         .row.align-items-center
@@ -342,6 +343,7 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema4/img26.png', alt='', style="width: 400px").m-auto
+              figcaption.mt-2 Imágen tomada de: máquina sobrehiladora. (s. f.). 
 
     separador
     #t_4_6.titulo-segundo.color-acento-contenido
@@ -395,31 +397,34 @@
     .row.mt-4
       .col-lg-8
         TabsA.color-acento-botones.mb-5
-          .tarjeta.clr-paleYellow.p-4(titulo="Prensado y moldeado final")
+          .tarjeta.clr-paleYellow.p-4(titulo="Colocación de la horma")
             .row.align-items-center
               .col-lg-12
-                h4 Prensado y moldeado final
+                h4 Colocación de la horma
                 p La capellada se ajusta a una horma con la forma deseada para darle estructura.
 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Prensado y moldeado final")
+          .tarjeta.clr-paleYellow.p-4(titulo="Tensado y fijación")
             .row.align-items-center
               .col-lg-12
-                h4 Prensado y moldeado final
+                h4 Tensado y fijación	
+
                 p Se estiran las piezas para eliminar arrugas y se fijan con clavos o adhesivo.
 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Prensado y moldeado final")
+          .tarjeta.clr-paleYellow.p-4(titulo="Unión de la suela")
             .row.align-items-center
               .col-lg-12
-                h4 Prensado y moldeado final
+                h4 Unión de la suela	
+
                 p La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.
 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Prensado y moldeado final")
             .row.align-items-center
               .col-lg-12
-                h4 Prensado y moldeado final
+                h4 Prensado y moldeado final	
+
                 p Se aplica calor y presión para mejorar la adherencia y dar el acabado final.
 
 
