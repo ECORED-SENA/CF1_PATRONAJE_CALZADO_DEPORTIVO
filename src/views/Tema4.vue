@@ -275,32 +275,42 @@
 
     p La costura es una etapa esencial en la fabricación del calzado, ya que une las piezas de la capellada, proporcionando forma y resistencia. Existen diferentes tipos de costura según el material y la funcionalidad requerida.
 
-    .bg_img_01
-      .row.justify-content-center.mb-5
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-3
-              figure
-                img(src="@/assets/curso/tema4/img20.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Costura simple
+    .row.mt-4.align-items-center.p-4.justify-content-center
+      .col-lg-12
+        .row.justify-content-center.align-items-center.bg-1.p-4
+          .col-lg-8
+            .row.align-items-center.bg-17.p-2
+              .col-lg-2
+                figure
+                  img(src="@/assets/curso/tema4/img20.svg", alt="", style="width: 90px").m-auto
+              .col-lg-10
+                p
+                  b Costura simple
+                p Unión de dos piezas con una línea recta de puntadas, utilizada en estructuras básicas.
 
-            p.text-center.mb-0 Unión de dos piezas con una línea recta de puntadas, utilizada en estructuras básicas.
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-3
-              figure
-                img(src="@/assets/curso/tema4/img21.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Costura doble (doble pespunte)
+            .row.align-items-center.bg-17.p-2.mt-2
+              .col-lg-2
+                figure
+                  img(src="@/assets/curso/tema4/img21.svg", alt="", style="width: 90px").m-auto
+              .col-lg-10
+                p
+                  b Costura doble (doble pespunte)
 
-            p.text-center.mb-0 Refuerzo adicional para unir materiales gruesos, mejorando la resistencia y durabilidad.
-        .col-lg-4.mb-4.mb-lg-0
-          .crd.crd--grayGrad(data-aos="flip-left")
-            .bottomCircle.mb-3
-              figure
-                img(src="@/assets/curso/tema4/img22.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Costura en zigzag
+                p Refuerzo adicional para unir materiales gruesos, mejorando la resistencia y durabilidad.
 
-            p.text-center.mb-0 Aporta mayor elasticidad en materiales sintéticos y textiles, evitando rupturas por tensión.
+            .row.align-items-center.bg-17.p-2.mt-2
+              .col-lg-2
+                figure
+                  img(src="@/assets/curso/tema4/img22.svg", alt="", style="width: 90px").m-auto
+              .col-lg-10
+                p
+                  b Costura en zigzag
+
+                p Aporta mayor elasticidad en materiales sintéticos y textiles, evitando rupturas por tensión.
+          .col-lg-4.d-lg-block.d-none
+            figure
+              img(src='@/assets/curso/tema4/img32.png', alt='', style="width: 380px").m-auto
+
 
     .titulo-tres.mt-4: h3 Máquinas de coser utilizadas
 
@@ -394,43 +404,41 @@
 
     p El montaje del calzado sigue una serie de etapas que garantizan la correcta fijación de la capellada a la suela, asegurando la durabilidad y comodidad del producto.
 
-    .row.mt-4
-      .col-lg-8
-        TabsA.color-acento-botones.mb-5
-          .tarjeta.clr-paleYellow.p-4(titulo="Colocación de la horma")
-            .row.align-items-center
-              .col-lg-12
-                h4 Colocación de la horma
-                p La capellada se ajusta a una horma con la forma deseada para darle estructura.
+    .bg_img_01.mt-4
+      .row.justify-content-center
+        .col-lg-3.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-3
+              figure
+                img(src="@/assets/curso/tema4/img33.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Colocación de la horma
 
+            p.text-center.mb-0 La capellada se ajusta a una horma con la forma deseada para darle estructura.
+        .col-lg-3.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-3
+              figure
+                img(src="@/assets/curso/tema4/img34.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Tensado y fijación	
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Tensado y fijación")
-            .row.align-items-center
-              .col-lg-12
-                h4 Tensado y fijación	
+            p.text-center.mb-0 Se estiran las piezas para eliminar arrugas y se fijan con clavos o adhesivo.
+        .col-lg-3.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-3
+              figure
+                img(src="@/assets/curso/tema4/img35.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Unión de la suela	
 
-                p Se estiran las piezas para eliminar arrugas y se fijan con clavos o adhesivo.
+            p.text-center.mb-0 La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.
 
+        .col-lg-3.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-3
+              figure
+                img(src="@/assets/curso/tema4/img36.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Prensado y moldeado final	
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Unión de la suela")
-            .row.align-items-center
-              .col-lg-12
-                h4 Unión de la suela	
-
-                p La suela se adhiere mediante pegado, costura o vulcanización, dependiendo del tipo de calzado.
-
-
-          .tarjeta.clr-paleYellow.p-4(titulo="Prensado y moldeado final")
-            .row.align-items-center
-              .col-lg-12
-                h4 Prensado y moldeado final	
-
-                p Se aplica calor y presión para mejorar la adherencia y dar el acabado final.
-
-
-      .col-lg-4.d-lg-block.d-none
-        figure
-          img(src='@/assets/curso/tema4/img30.png', alt='', style="width: 400px").m-auto
+            p.text-center.mb-0 Se aplica calor y presión para mejorar la adherencia y dar el acabado final.
 
     separador
     #t_4_7.titulo-segundo.color-acento-contenido

@@ -33,7 +33,7 @@
             span Partes estructurales de un zapato
           .col-lg-7.mb-4
             figure
-              img(src='@/assets/curso/tema1/img3.svg', alt='Diagrama estructural de un zapato desglosado en sus diferentes partes. Se identifican componentes como la lengüeta, la capellada, la cordonera, la entresuela, el cambrillón, la plantilla estructural, la suela, el tacón y la tapa, cada uno señalado con etiquetas descriptivas. ', style="width: 505px")
+              img(src='@/assets/curso/tema1/img3.svg', alt='Diagrama estructural de un zapato desglosado en sus diferentes partes. Se identifican componentes como la lengüeta, la capellada, la cordonera, la entresuela, el cambrillón, la plantilla estructural, la suela, el tacón y la tapa, cada uno señalado con etiquetas descriptivas. ', style="width: 610px")
           .col-lg-5.d-lg-block.d-none 
             figure
               img(src='@/assets/curso/tema1/img4.png', alt='', style="width: 295px")
@@ -146,113 +146,58 @@
                       img(src='@/assets/curso/tema1/img8.svg', alt='Diagrama de las partes externas de un zapato, donde se destacan componentes como la cordonera, la capellada, la puntera y el talón. Cada parte está señalada con etiquetas explicativas. ', style='')
 
                   .tarjeta.color-acento-contenido.p-4(x="11%" y="37%" numero="+" style='border-radius: 10px; background-color: #F2F8AC')
-                    h5.mb-3.text-center Puntera
-                    p.mb-0.text-center Parte frontal del calzado que protege los dedos. Su diseño varía según el tipo de zapato, brindando diferentes niveles de protección, confort y estilo.
+                    h5.mb-3.text-center Puntera reforzada	
+                    p.mb-0.text-center Zona frontal robusta que protege los dedos ante impactos o roces, manteniendo la flexibilidad del calzado.
 
-                  .tarjeta.color-acento-contenido.p-4(x="20%" y="24%" numero="+" style='border-radius: 10px; background-color: #F2F8AC')
-                    h5.mb-3.text-center Cordonera
-                    p.mb-0.text-center Zona del calzado con ojales o perforaciones por donde pasan los cordones, permitiendo el ajuste al pie.
+                  .tarjeta.color-acento-contenido.p-4(x="30%" y="22%" numero="+" style='border-radius: 10px; background-color: #F2F8AC')
+                    h5.mb-3.text-center Ojaletes o pasadores	
+                    p.mb-0.text-center Aberturas en el empeine por donde pasan los cordones, permitiendo un ajuste seguro y adaptado a cada deportista.
 
-                  .tarjeta.color-acento-contenido.p-4(x="89%" y="58%" numero="+" style='border-radius: 10px; background-color: #F2F8AC')
-                    h5.mb-3.text-center Talón
-                    p.mb-0.text-center Parte trasera del calzado que envuelve y protege la zona del talón del pie, proporcionando soporte y estabilidad.
-
-          p.mt-4 Los zapatos pueden presentar variaciones en su diseño, especialmente en la capellada, lo que influye en su estética y funcionalidad. A continuación, se describen algunas partes clave en su construcción:
+                  .tarjeta.color-acento-contenido.p-4(x="89%" y="47%" numero="+" style='border-radius: 10px; background-color: #F2F8AC')
+                    h5.mb-3.text-center Contrafuerte	
+                    p.mb-0.text-center Refuerzo en la parte trasera que proporciona estabilidad y sujeta el talón, previniendo torceduras y mejorando el control.
 
 
-    .row.bg-4
-      .col-12
-        .p-5
-          .tarjeta.tarjeta--azul.mb-6(style='background-color: white !important')
-            .p-4.p-lg-5
-              SlyderA(tipo="b")
-                .row.justify-content-center.align-items-center.my-lg-4
-                  .col-md-7.mb-4.mb-md-0.mt-lg-0.mt-4
-                    ul.lista-ul--color
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Capellada
-                          p.mb-0 Corresponde a la parte superior del zapato que cubre el empeine y el dorso del pie. Su diseño puede variar según el tipo de calzado.
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2  Función de cada parte en el diseño y confort
 
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Bigotera
-                          p.mb-0 Pieza de refuerzo ubicada en el empeine que proporciona soporte, mejora el ajuste y aporta diseño.
-
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Chapeta
-                          p.mb-0 Pieza ubicada en la parte superior del empeine, generalmente en la zona de la cordonera o lengüeta, que refuerza y mejora el ajuste.
-
-
-                  .col-md-5
-                    figure
-                      img(src='@/assets/curso/tema1/img9.png', alt='Ilustración comparativa de dos diseños de capellada en calzado. El primer diseño incluye elementos como la cordonera, la capellada y la bigotera, mientras que el segundo diseño resalta la capellada y la chapeta. ')
+    p Cada componente del calzado tiene una función clave en la estructura y comodidad del zapato:
                   
-
-                .row.justify-content-center.align-items-center.my-lg-4
-                  .col-md-7.mb-4.mb-md-0.mt-lg-0.mt-4
-                    ul.lista-ul--color
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Capellada
-                          p.mb-0 Parte superior de la bota que cubre el pie y define su diseño. Puede estar hecha de cuero, tela o materiales sintéticos.
-
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Caña
-                          p.mb-0 Parte de la bota que cubre la pierna, brindando protección, soporte y diseño. Su altura varía según el tipo de bota.
-
-                      li.d-flex
-                        i.fa-solid.fa-circle-check
-                        .contenido
-                          p.mb-0 
-                            b Talón
-                          p.mb-0 Parte trasera de la bota que envuelve y protege la zona del talón del pie, proporcionando soporte y estabilidad.
-
-                  .col-md-5
-                    figure
-                      img(src='@/assets/curso/tema1/img10.svg', alt='Diagrama de una bota que identifica sus partes principales. Se destacan la caña, ubicada en la parte superior; el talón, en la parte trasera inferior; y la capellada, en la zona frontal del calzado. ')
-                  
-    .titulo-tres.mt-4: h3 Refuerzos y elementos de soporte
-
-    p Algunas partes del calzado mejoran la estabilidad y durabilidad:
 
     .bg_img_01
       .row.justify-content-center.mb-5
-        .col-lg-4.mb-4.mb-lg-0
+        .col-lg-3.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-3
               figure
-                img(src="@/assets/curso/tema1/img11.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Contrafuerte
-            p.text-center.mb-0 Refuerzo en la parte trasera que proporciona estabilidad al talón.
-        .col-lg-4.mb-4.mb-lg-0
+                img(src="@/assets/curso/tema1/img15.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Diseño y estética
+            p.text-center.mb-0 La capellada define la apariencia visual del calzado.
+        .col-lg-3.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-3
               figure
-                img(src="@/assets/curso/tema1/img12.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Puntera
-            p.text-center.mb-0 Refuerzo en la parte frontal que protege los dedos, especialmente en zapatos de seguridad.
-        .col-lg-4.mb-4.mb-lg-0
+                img(src="@/assets/curso/tema1/img15.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Soporte y estabilidad
+            p.text-center.mb-0 La suela y la entresuela proporcionan equilibrio y amortiguación.
+        .col-lg-3.mb-4.mb-lg-0
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-3
               figure
-                img(src="@/assets/curso/tema1/img13.svg", alt="alt", style="width: 92px").m-auto
-            h4.text-center Ojetes o pasadores
-            p.text-center.mb-0 Aberturas para los cordones, que permiten ajustar el calzado al pie.
+                img(src="@/assets/curso/tema1/img16.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Protección
+            p.text-center.mb-0 Elementos como la plantilla estructural, puntera y contrafuerte evitan lesiones y refuerzan el calzado.
 
-    p.mt-4 Estas partes pueden variar dependiendo del tipo de calzado (formal, deportivo, industrial, etc.).
+        .col-lg-3.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-3
+              figure
+                img(src="@/assets/curso/tema1/img17.svg", alt="alt", style="width: 92px").m-auto
+            h4.text-center Ajuste y comodidad
+            p.text-center.mb-0 El forro, la plantilla y la lengüeta reducen la fricción y mejoran la experiencia del usuario.
+
+
 
 
 

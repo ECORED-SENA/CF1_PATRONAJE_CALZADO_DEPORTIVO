@@ -20,7 +20,7 @@ export default {
       tema: 'Aspectos técnicos del patronaje de calzado',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la estructura, materiales, tipologías, fases de producción y documentación técnica en el patronaje de calzado.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la estructura, materiales, tipologías, fases de producción y documentación técnica en el patronaje de calzado deportivo.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

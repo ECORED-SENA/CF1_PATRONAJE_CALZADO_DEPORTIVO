@@ -1,1 +1,1 @@
-module.exports = 'Aspectos técnicos para el  patronaje de calzado'
+module.exports = 'Construcción del Calzado: Fases, Materiales y Fichas Técnicas'

@@ -1,16 +1,26 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 90%
-    width: 200px
+    top: 5%
+    left: -3%
+  &-2
+    animation: floatleft 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 12%
+    right: 12%
 
-@keyframes float1
+@keyframes float
   0%
-    transform: translateX(90px)
+    transform: translateX(30px)
   100%
+    transform: translateX(-50px)
+
+@keyframes floatleft
+  0%
     transform: translateX(0px)
+  100%
+    transform: translateX(10px)
   
 .banner-principal .tarjeta
   background-position: left 50% !important
@@ -93,7 +103,26 @@ figcaption
   &-17
     background-color: #FFFFFF
     border-radius: 8px
+  &-18
+    background-color: #32D5D3 !important
+  &-19
+    background-color: #CB98F5
 
+
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #ADEEEE
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F2F8AC
+
+.linea-tiempo-d__item__number.tarjeta.tarjeta--gris 
+    background-color: #ADEEEE
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #E0EE34
 
 ///// SLyder A tipo B Custom --------------------------------------
 .slyder-a__tipo-b .slyder-a__btn--atrs

@@ -32,33 +32,35 @@
 
     p El proceso de curtido define muchas de las propiedades del cuero, como su resistencia, color, textura y comportamiento frente a la humedad.
 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.clr-paleYellow.p-4(titulo="Cuero al cromo")
+    TabsC.color-acento-botones
+      .py-3.py-md-4.bg-9(titulo="Cuero al cromo")
         .row.align-items-center
-          .col-lg-7
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3/img4.png', style="width:480px").m-auto
+
+          .col-md-6
             h4 Cuero al cromo
             p Cuero flexible y resistente, con color uniforme por el uso de sales de cromo y buena capacidad para el teñido. Se utiliza en calzado, tapicería y vestimenta.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema3/img4.png', alt='', style="width: 400px").m-auto
-
-      .tarjeta.clr-paleYellow.p-4(titulo="Cuero vegetal")
+      .py-3.py-md-4.bg-9(titulo="Cuero vegetal")
         .row.align-items-center
-          .col-lg-7
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3/img5.png', style="width:480px").m-auto
+
+          .col-md-6
             h4 Cuero vegetal
             p Cuero más rígido, biodegradable y con tonos naturales. Utiliza taninos de origen vegetal. Se emplea en artículos artesanales y marroquinería.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema3/img5.png', alt='', style="width: 400px").m-auto
 
-      .tarjeta.clr-paleYellow.p-4(titulo="Cuero mixto")
+      .py-3.py-md-4.bg-9(titulo="Cuero mixto")
         .row.align-items-center
-          .col-lg-7
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema3/img6.png', style="width:480px").m-auto
+
+          .col-md-6
             h4 Cuero mixto
             p Combina curtido al cromo y vegetal, ofreciendo resistencia mecánica y menor impacto ambiental. Se utiliza en calzado de calidad media-alta.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/tema3/img6.png', alt='', style="width: 400px").m-auto
 
     .titulo-tres.mt-4: h3 Curtidos alternativos
 
@@ -236,11 +238,9 @@
       .col-lg-11
         p Los materiales sintéticos son compuestos desarrollados artificialmente, principalmente a partir de derivados del petróleo y polímeros. Han sido diseñados para imitar o incluso mejorar las propiedades de los materiales naturales como el cuero y los textiles. En la industria del calzado, su uso es ampliamente extendido gracias a su bajo costo, alta versatilidad, resistencia a la humedad, durabilidad y facilidad de limpieza. Su clasificación puede hacerse según su composición química o según su estructura y aplicación específica en el calzado.
 
-    p.mt-4
-      b Clasificación de los materiales sintéticos según su composición
+    .titulo-tres.mt-4: h3 Clasificación de los materiales sintéticos según su composición
 
-    p Esta categoría se refiere al tipo de polímero o compuesto base del que está hecho el material sintético. Las propiedades físicas y funcionales dependen directamente de estos componentes.
-
+    p.mt-4 Esta categoría se refiere al tipo de polímero o compuesto base del que está hecho el material sintético. Las propiedades físicas y funcionales dependen directamente de estos componentes.
 
     TabsB.color-acento-botones.mt-4
       .py-4.py-md-5.bg-9(titulo="Poliuretano (PU)" :icono="require('@/assets/curso/tema3/img23.svg')")
@@ -316,7 +316,7 @@
             p Lo invitamos a escuchar el siguiente Pódcast:
             TarjetaAudio.color-primario.mb-3.bg-11.p-4(
               texto="Descubre los materiales sintéticos en el calzado"
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('@/assets/componentes/audios/Podcast1.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Diagrama sobre aspectos técnicos para el patronaje de calzado que organiza temas como anatomía y tipologías del calzado, fases del proceso productivo (desde diseño hasta control de calidad), materiales e insumos, y fichas técnicas de diseño. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Diagrama sobre aspectos técnicos para el patronaje de calzado que organiza información en cinco categorías: anatomía del calzado (partes y funciones), tipologías (clasificación y diferencias), materiales e insumos (cueros, sintéticos, textiles y suelas), proceso productivo (etapas como diseño, corte, armado y acabado), y fichas técnicas de diseño (elementos y usos). ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

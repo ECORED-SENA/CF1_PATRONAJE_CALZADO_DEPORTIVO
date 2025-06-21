@@ -7,7 +7,7 @@
         span 5
       h1 Fichas técnicas de diseño
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.bloque-texto-g--inverso.bg-18.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img1.png')})`}"
       )
@@ -20,19 +20,16 @@
 
     p Una ficha técnica bien elaborada debe contener diversos elementos que permitan comprender todas las características del producto. A continuación, se describen los apartados que la componen:
 
-    .row.align-items-center
-      .col-lg-4.d-lg-block.d-none
+    .row.justify-content-center.mb-5
+      .col-8.col-lg-4
         figure
-          img(src='@/assets/curso/tema5/img2.png', alt='', style="width: 400px").m-auto
-
+          img(src="@/assets/curso/tema5/img2.png", alt="alt")
       .col-lg-8
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-7")
-          .row(titulo="Información general")
-            .col-12.mb-4.mb-md-0
+        LineaTiempoD.color-secundario
+          div(numero="1" titulo="Información general")
+            p Incluye los datos básicos que identifican el producto y su registro documental:
 
-              p.px-5 Incluye los datos básicos que identifican el producto y su registro documental:
-
-              ul.lista-ul--color2.px-5
+              ul.lista-ul--color2.mt-2
                 li.d-flex
                   i.fa-solid.fa-circle-check
                   .contenido
@@ -47,12 +44,10 @@
                   i.fa-solid.fa-circle-check
                   .contenido
                     p.mb-3 Fecha de creación y versión.
+          div(numero="2" titulo="Descripción del diseño")
+            p Define visual y dimensionalmente el producto para su correcta interpretación por parte del equipo técnico:
 
-
-          div(titulo="Descripción del diseño")
-            p.px-5 Define visual y dimensionalmente el producto para su correcta interpretación por parte del equipo técnico:
-
-            ul.lista-ul--color2.px-5
+            ul.lista-ul--color2.mt-2
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
@@ -63,10 +58,10 @@
                 .contenido
                   p.mb-3 Especificaciones de forma y dimensiones.
 
-          div(titulo="Materiales y componentes")
-            p.px-5 Detalla los elementos físicos que conforman el producto, tanto estructurales como decorativos:
+          div(numero="3" titulo="Materiales y componentes")
+            p Detalla los elementos físicos que conforman el producto, tanto estructurales como decorativos:
 
-            ul.lista-ul--color2.px-5
+            ul.lista-ul--color2.mt-2
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
@@ -82,10 +77,10 @@
                 .contenido
                   p.mb-3 Colores y texturas.
 
-          div(titulo="Técnicas de fabricación")
-            p.px-5 Define los procesos que se deben seguir para ensamblar las partes del producto:
+          div(numero="4"  titulo="Técnicas de fabricación")
+            p Define los procesos que se deben seguir para ensamblar las partes del producto:
 
-            ul.lista-ul--color2.px-5
+            ul.lista-ul--color2.mt-2
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
@@ -100,15 +95,15 @@
                 i.fa-solid.fa-circle-check
                 .contenido
                   p.mb-3 Tipo de curtido en caso de cuero.
+          
 
     .row.align-items-center.mt-3
       .col-lg-8
-        AcordionA(tipo="a" clase-tarjeta="tarjeta bg-7")
-          .row(titulo="Medidas y tallas")
-            .col-12.mb-4.mb-md-0
-              p.px-5 Especifica las dimensiones del producto y, si corresponde, la tabla de tallas según su aplicación:
+        LineaTiempoD.color-secundario
+          div(numero="5" titulo="Medidas y tallas")
+              p Especifica las dimensiones del producto y, si corresponde, la tabla de tallas según su aplicación:
 
-              ul.lista-ul--color2.px-5
+              ul.lista-ul--color2.mt-2
                 li.d-flex
                   i.fa-solid.fa-circle-check
                   .contenido
@@ -119,11 +114,11 @@
                   .contenido
                     p.mb-3  Tabla de tallas en caso de calzado o prendas.
 
-          div(titulo="Indicaciones de uso y cuidado")
+          div(numero="6" titulo="Indicaciones de uso y cuidado")
 
-            p.px-5 Proporciona instrucciones necesarias para preservar el producto y prevenir daños:
+            p Proporciona instrucciones necesarias para preservar el producto y prevenir daños:
 
-            ul.lista-ul--color2.px-5
+            ul.lista-ul--color2.mt-2
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
@@ -135,11 +130,11 @@
                   p.mb-0 Restricciones de uso (temperaturas, humedad, exposición al sol, etc.).
 
 
-          div(titulo="Observaciones y requisitos de calidad")
+          div(numero="7" titulo="Observaciones y requisitos de calidad")
 
-            p.px-5 Incluye datos adicionales relacionados con los estándares que deben cumplirse y pruebas necesarias:
+            p Incluye datos adicionales relacionados con los estándares que deben cumplirse y pruebas necesarias:
 
-            ul.lista-ul--color2.px-5
+            ul.lista-ul--color2.mt-2
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
@@ -167,7 +162,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-12(data-aos="fade-down")
-        .row.d-flex.align-items-center.bg-7(data-aos="fade-right")
+        .row.d-flex.align-items-center.bg-19(data-aos="fade-right")
           .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema5/img5.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
