@@ -1,8 +1,8 @@
 export default {
   global: {
-    Name: 'Construcción del Calzado: Fases, Materiales y Fichas Técnicas',
+    Name: 'Construcción del Calzado: fases, materiales y fichas técnicas',
     Description:
-      'El componente formativo “Aspectos técnicos para el patronaje de calzado” proporciona conocimientos sobre hormas, tipos de patrones, normas de diseño, materiales, estructura y partes del calzado, variaciones según parámetros técnicos, fases de fabricación, ubicación de líneas guía en la horma y estructura anatómica del pie. Se estudiarán sistemas de medidas y adaptaciones para comprender la elaboración de patrones.',
+      'El componente formativo “Construcción del Calzado: fases, materiales y fichas técnicas” proporciona conocimientos sobre hormas, tipos de patrones, normas de diseño, materiales, estructura y partes del calzado, variaciones según parámetros técnicos, fases de fabricación, ubicación de líneas guía en la horma y estructura anatómica del pie. Se estudiarán sistemas de medidas y adaptaciones para comprender la elaboración de patrones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

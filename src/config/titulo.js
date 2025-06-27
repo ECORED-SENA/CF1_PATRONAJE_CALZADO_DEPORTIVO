@@ -1,1 +1,1 @@
-module.exports = 'Construcción del Calzado: Fases, Materiales y Fichas Técnicas'
+module.exports = 'Construcción del Calzado: fases, materiales y fichas técnicas'

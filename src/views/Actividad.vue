@@ -27,28 +27,29 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la función principal de la capellada en el calzado?',
+          texto:
+            '¿Cuál es la función principal de la capellada en el calzado deportivo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Define la altura del tacón.',
+              texto: 'La amortiguación del impacto.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cubre el pie y define el diseño del calzado.',
+              texto: 'Cubrir y proteger la parte superior del pie.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Sirve como base para pegar la suela.',
+              texto: 'Aumentar el peso del zapato.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Aumenta la resistencia del talón.',
+              texto: 'Reducir el desgaste de la suela.',
               esCorrecta: false,
             },
           ],
@@ -58,28 +59,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué tipo de calzado está diseñado para ofrecer protección en entornos laborales?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué tipo de cuero se caracteriza por su rigidez y uso de taninos vegetales?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Deportivo.',
+              texto: 'Cuero al cromo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Casual.',
+              texto: 'Cuero porcino.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Industrial.',
+              texto: 'Cuero vegetal.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Ortopédico.',
+              texto: 'Cuero sintético.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +90,28 @@ export default {
         {
           id: 3,
           texto:
-            '¿Qué material se caracteriza por ser biodegradable y utilizar taninos vegetales?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es una ventaja de los materiales sintéticos en el calzado?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Cuero vegetal.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Cuero al cromo.',
+              texto: 'Transpirabilidad natural.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Resistencia a la humedad y bajo costo.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Cuero mixto.',
+              texto: 'Fácil descomposición.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Cuero porcino.',
+              texto: 'Mayor peso y rigidez.',
               esCorrecta: false,
             },
           ],
@@ -120,161 +121,8 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál de las siguientes partes proporciona amortiguación entre la suela y la plantilla?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Tacón.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Cordonera.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Entresuela.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Cambrión.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué característica tiene el calzado de tipo Oxford?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Diseño con punta de acero.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Estructura abierta con cordones externos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Estructura cerrada con cordones internos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Uso exclusivo de materiales sintéticos.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué tipo de curtido genera un cuero más claro, con alta capacidad de teñido y sin metales pesados?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Curtido al cromo.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Curtido con aluminio.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Curtido vegetal.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Curtido mixto.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto: '¿Cuál es la función principal del proceso de desbaste?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Aumentar el grosor del material.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Mejorar la adherencia del pegamento.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Pulir la suela.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Redondear el diseño del tacón.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Qué tipo de máquina facilita la costura en zonas curvas del calzado?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Máquina de codo.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Máquina de columna.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Máquina doble aguja.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Sobrehiladora.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            '¿Qué tipo de suela se caracteriza por ser ligera, flexible y con gran capacidad de absorción de impactos?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué material se usa comúnmente en la entresuela por su capacidad de amortiguación?',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -284,17 +132,169 @@ export default {
             },
             {
               id: 'b',
-              texto: 'EVA.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
               texto: 'Cuero.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'EVA.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'TR.',
+              texto: 'Lona.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: '¿Cuál es una característica del calzado ortopédico?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseño elegante para eventos formales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uso exclusivo para ambientes industriales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Soporte para corregir problemas del pie.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Alta resistencia al fuego.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Cuál es el objetivo del proceso de desbaste en la fabricación de calzado?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aplicar color a los materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejorar la adherencia del pegamento.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cosido de la capellada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Insertar refuerzos en la suela.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué tipo de máquina de coser se utiliza para zonas curvas del calzado?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Máquina recta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Máquina de codo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Máquina industrial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Máquina láser.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto: '¿Qué característica tiene el cuero caprino?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Textura granulada y resistencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Alta rigidez y grosor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Costo elevado y poca durabilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Poca flexibilidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto: '¿Qué permite una ficha técnica de diseño?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir el tamaño del calzado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estandarizar la producción y asegurar la calidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elaborar nuevos modelos sin control.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Distribuir productos sin identificación.',
               esCorrecta: false,
             },
           ],
@@ -304,28 +304,28 @@ export default {
         {
           id: 10,
           texto:
-            '¿Cuál es uno de los usos principales de la ficha técnica de diseño?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué material textil es ideal para calzado de verano por su frescura y ligereza?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Reemplazar el proceso de control de calidad.',
+              texto: 'Poliéster.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Garantizar uniformidad y calidad en la producción.',
+              texto: 'Lino.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Eliminar la necesidad de bocetos.',
+              texto: 'Nylon.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Sustituir los manuales de fabricación.',
+              texto: 'Microfibra.',
               esCorrecta: false,
             },
           ],
@@ -334,7 +334,8 @@ export default {
         },
         {
           id: 11,
-          texto: 'El cambrión es un componente decorativo del calzado.',
+          texto:
+            'La puntera del calzado tiene una función decorativa únicamente.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -355,8 +356,8 @@ export default {
         {
           id: 12,
           texto:
-            'El cuero caprino se caracteriza por su resistencia y textura granulada.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'El montaje Strobel proporciona mayor comodidad y flexibilidad.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -376,8 +377,8 @@ export default {
         {
           id: 13,
           texto:
-            'El montaje <em>Strobel</em> se utiliza principalmente en calzado formal.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'El PVC es un material natural común en la fabricación de calzado.',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -397,8 +398,8 @@ export default {
         {
           id: 14,
           texto:
-            'Los materiales textiles sintéticos como el poliéster permiten transpiración y son de bajo costo.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La suela influye directamente en la seguridad y estabilidad del calzado deportivo.',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -418,19 +419,19 @@ export default {
         {
           id: 15,
           texto:
-            'La ficha técnica de diseño incluye datos sobre materiales, procesos de ensamblaje y medidas.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'La plantilla no tiene ninguna influencia en la estabilidad del pie.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Falso.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Verdadero.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

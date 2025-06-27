@@ -133,12 +133,12 @@
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
-                  p.mb-3  #[b Bota vs. Zapato bajo:] Las botas cubren el tobillo o la pierna, brindando mayor protección, mientras que los zapatos bajos permiten mayor movilidad. 
+                  p.mb-3  #[b Bota vs. Zapato bajo:] las botas cubren el tobillo o la pierna, brindando mayor protección, mientras que los zapatos bajos permiten mayor movilidad. 
 
               li.d-flex
                 i.fa-solid.fa-circle-check
                 .contenido
-                  p.mb-0 #[b Punta de acero vs. Punta reforzada:] En el calzado industrial, las botas con punta de acero protegen contra impactos fuertes, mientras que las de punta reforzada ofrecen protección media sin el peso del acero.
+                  p.mb-0 #[b Punta de acero vs. Punta reforzada:] en el calzado industrial, las botas con punta de acero protegen contra impactos fuertes, mientras que las de punta reforzada ofrecen protección media sin el peso del acero.
 
 
           div(titulo="Estilo y uso")

@@ -359,7 +359,7 @@
             table
               thead
                 tr(style="background-color: #E0EE33")
-                  th Niveles del lenguaje
+                  th Tipo de fibra
                   th Origen
                   th Características
                   th Usos en calzado

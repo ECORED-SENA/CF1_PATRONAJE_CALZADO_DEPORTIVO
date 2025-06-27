@@ -60,7 +60,7 @@
                         img(src="@/assets/curso/tema4/img6.svg", alt='', style="width: 90px").m-auto
                     p.text-center
                       b Desarrollo de prototipos
-                    p.text-center.mb-0 Se elaboran prototipos para verificar que el calzado cumple con las especificaciones técnicas del producto y se ajustas de ser necesario.
+                    p.text-center.mb-0 Se elaboran prototipos para verificar que el calzado cumple con las especificaciones técnicas del producto y se ajustan de ser necesario.
 
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -162,7 +162,7 @@
             h4 Corte láser
             p Tecnología de precisión utilizada en materiales como cuero, sintéticos y textiles.
 
-      .py-3.py-md-4.bg-9(titulo="Cuero porcino")
+      .py-3.py-md-4.bg-9(titulo="Corte automatizado")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             figure
